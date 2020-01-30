@@ -1,9 +1,9 @@
- * Récapitulatif du projet et de l'organisation:
+# Récapitulatif du projet et de l'organisation:
 
 Je fait ce fichier pour décrir la structure de mon code et expliquer comment j'ai travaillé
 
 
- * Structure du code
+# Structure du code
  
 [hagrud_test] -|
                |- hagrud_chat : example de script trouvé sur youtube que j'ai gardé pour afficher les info coté client
@@ -24,7 +24,7 @@ Je fait ce fichier pour décrir la structure de mon code et expliquer comment j'
 			   
 	Pour que la teleportation fonctionne, il faut une base de données avec un table "tp_locations" ( nom : CHAR(100), px : INT, py : INT, pz : INT ) et que la configuration du soit correcte (ligne 16 de server.cfg)
 			   	
- * Explication de ce qu'on voit dans la vidéo et des commandes :
+# Explication de ce qu'on voit dans la vidéo et des commandes :
 	
 	Commande : /hg:save_place nom  : sauvegarde la position dans la base de donnée 
 			 : /hg:teleport nom    : teleporte le joueur sur un position sauvegardé dans la base de donnée
@@ -37,7 +37,7 @@ Je fait ce fichier pour décrir la structure de mon code et expliquer comment j'
 					On trace une ligne bleu pendant 5 secondes pour visualiser le rayon qui a essayé de detecter le trader (pour le debug)
 	
 	
- * Organisation :
+# Organisation :
  
 	23/01 : lancement téléchargement rdr2, redM 
 	24/01 : code du module téléportation (uniquement coté serveur)
@@ -48,7 +48,7 @@ Je fait ce fichier pour décrir la structure de mon code et expliquer comment j'
 	29/01 : day off
 	30/01 : nettoyage du code, fin du module trader + rédaction du README
 			   
- * Documentations:
+# Documentations :
 	Configurer un serveur : https://forum.cfx.re/ (dans les tuto)
 	                        https://docs.fivem.net/docs/server-manual/setting-up-a-server/
 	                        https://gta5.cool/comment-installer-fivem-mysql-async/   (mysql-async)
@@ -68,4 +68,5 @@ Je fait ce fichier pour décrir la structure de mon code et expliquer comment j'
 	Javascript : https://developer.mozilla.org/fr/docs/Web/JavaScript
                  https://stackoverflow.com/
 				 
- * Outils : Notepad++, mysql
+ # Outils : 
+ 	Notepad++, mysql
