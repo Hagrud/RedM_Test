@@ -12,7 +12,8 @@ client_script{
 	'client/entity_animations.js',
 	'client/commands.js',
 	'client/detection.js',
-	'client/hud.js'
+	'client/hud.js',
+	'client/editor.js'
 }
 
 files {

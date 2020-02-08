@@ -8,7 +8,7 @@ function drawText(x, y, z, word){
 		
 		let cam = GetGameplayCamCoord();
 			
-		let dist = GetDistanceBetweenCoords(cam[0], cam[1], cam[2], x, y, z, true)
+		let dist = GetDistanceBetweenCoords( ...cam, x, y, z, true)
 		let fov = (1 / GetGameplayCamFov()) * 100
 		let scale = (1 / dist) * fov
 		
